@@ -8,7 +8,7 @@ interface ICard {
 
 export const CardComponent = ({ title }: ICard) => {
   const onClickFunction = () => {
-    alert('Login realizado com sucesso!')
+    alert('Boas vindas!')
   }
   return(
     <div>
